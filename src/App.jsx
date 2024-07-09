@@ -11,7 +11,7 @@ export default function App() {
       path: "/",
       element: <RootLayout />,
       children: [
-        { index: true, element: <HomePage /> },
+        { index: true, element: <CollectionPage /> },
         { path: "products", element: <CollectionPage /> },
         { path: "cart", element: <Cart /> },
       ],
